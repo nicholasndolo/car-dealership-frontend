@@ -1,0 +1,61 @@
+.input-form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    height: 100vh;
+
+}
+
+ .parent-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 4rem;
+     gap: 2rem;
+ }
+
+ .child-container {
+    display: flex;
+    padding: 10px;
+    gap: 5rem;
+ }
+
+ input[type="string"] {
+     width: 30rem;
+ }
+
+.child-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.child-two {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h3 {
+    color: var(--orange);
+}
+
+.submit {
+    color: white;
+    background-color: var(--orange);
+    width: 8rem;
+    height: 3rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+}
+
+
+
