@@ -1,0 +1,72 @@
+.head {
+    background-color: var(--gray);
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    padding: 5px;
+}
+
+.header-l {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-l span {
+ font-size: 26px;
+ color: white;
+
+}
+
+.header-l:not(span) {
+    font-size: 2rem;
+    color: white;
+}
+
+
+.header-r {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+    gap: 1rem;
+
+}
+
+.header-r img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.header-r span {
+    font-size: 20px;
+    color: white;
+}
+
+.home-btn {
+margin-right: 3rem;
+ background-color: blue;
+ width: 6rem;
+ color: white;
+ border-radius: 8px;
+ outline: none;
+ border: none;
+ display: flex;
+ gap: 1rem;
+ align-items: center;
+ padding: 5px;
+ display: flex;
+ justify-content: center;
+ text-decoration: none;
+
+}
+
+.home-btn:hover{
+    color: white;
+    text-decoration: none;
+}
+
