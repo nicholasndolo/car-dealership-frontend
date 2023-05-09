@@ -1,0 +1,38 @@
+.footer-c {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-c>hr{
+    border: 1px solid var(--lightgray);
+}
+
+/* .footer{
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+} */
+
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+
+.social-links{
+    display: flex;
+    gap: 4rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.logo-f>{
+    width: 10rem;
+}
