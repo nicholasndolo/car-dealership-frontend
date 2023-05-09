@@ -1,0 +1,117 @@
+.search {
+    display: flex;
+    padding: 1rem;
+}
+
+.search-l {
+    display: flex;
+    gap: 1rem;
+    flex: 2;
+}
+
+.box-one{
+    width: 40rem;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.box-one > :nth-child(1){
+    font-size: 20px;
+    color: #777;
+}
+
+.box-one > input{
+ flex: 1;
+ height: 40px;
+ border: none;
+ outline: none;
+ font-size: 18px;
+ padding-left: 10px;
+}
+
+.box-two{
+    width: 16rem;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    
+    
+
+
+}
+
+ .box-two > :nth-child(1){
+    font-size: 20px;
+    color: #777;
+
+}
+
+.box-two > input{
+
+    flex: 2;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+   } 
+
+
+
+
+input::placeholder{
+    color: black;
+
+}
+
+.search-r {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.bttn {
+ margin-right: 3rem;
+ background-color: var(--orange);
+ width: 8rem;
+ color: white;
+ border-radius: 8px;
+ outline: none;
+ border: none;
+ display: flex;
+ gap: 1rem;
+ align-items: center;
+ padding: 5px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.bttn::before {
+    content: "+";
+    width: 20px;
+    height: 20px;
+    color: black;
+    margin-left: 10px;
+    background-color: #fff;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+}
+
+.bttn:hover{
+    color: white;
+    text-decoration: none;
+}
