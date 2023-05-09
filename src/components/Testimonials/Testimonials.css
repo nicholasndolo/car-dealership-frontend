@@ -1,0 +1,88 @@
+.testimonials{
+    background-color: var(--caloryCard);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 1rem; 
+}
+
+.testimonials>h6{
+    color: var(--orange);
+    font-size: 20px;
+}
+.testimonials>h2{
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+}
+
+.test-container {
+    display: flex;
+    gap: 2rem;
+    width: 80rem;
+    align-items: center;
+}
+
+.parent {
+    background-color: var(--lightgray);
+    height: 15rem;
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 2rem;
+}
+
+.parent:hover {
+    cursor: pointer;
+    background: var(--planCard);
+
+}
+
+.parent-t {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+    
+}
+
+.parent-m{
+    display: flex;
+    gap: 14rem;
+}
+
+.parent-m>div{
+    gap: 10px;
+}
+
+.parent-m>div>span:nth-of-type(1){
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.parent-m>div:nth-of-type(1){
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.avatar{
+    border-radius: 50%;
+    border: 1px solid red;
+    width: 6rem;
+    height: 6rem;
+}
+
+.arrow{
+    color: white;
+}
+
+.arrow:hover{
+    cursor:pointer;
+    background: var(--planCard);
+}
