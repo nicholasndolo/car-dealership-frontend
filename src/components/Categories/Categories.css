@@ -1,0 +1,51 @@
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:5rem;
+}
+
+.categories-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.categories-header>h3{
+    color: var(--orange);
+    font-size: 20px;
+}
+.categories-header>div{
+    font-size:3rem;
+    font-weight: bold;
+    gap: 1rem;
+    color: white;
+}
+
+.cats {
+    display: flex;
+    align-items: center;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card>img{
+    width: 20rem;
+    height: 11rem;
+    border-radius: 4px;
+}
+
+.card>div{
+    background-color: var(--orange);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+}
