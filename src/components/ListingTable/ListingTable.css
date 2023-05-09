@@ -1,0 +1,16 @@
+.table {
+    margin-top: 2rem;
+    background-color: var(--lightgray);
+}
+
+  
+
+
+
+.delete {
+    color: var(--orange);
+}
+
+.delete:hover {
+    color: red;
+}
