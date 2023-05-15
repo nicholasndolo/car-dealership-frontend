@@ -40,8 +40,8 @@ const Hero = () => {
                 </span>
               </div>
               <div className="hero-buttons">
-                <buttons className="btn">Get Started</buttons>
-                <buttons className="btn">Learn More</buttons>
+                <button className="btn">Get Started</button>
+                <button className="btn">Learn More</button>
             </div>
           </div>
 
@@ -61,7 +61,7 @@ const Hero = () => {
           </div> */}
         </div>
         <div>
-        <img src={bently} alt="" className="hero-image" />
+        <img src={bently} alt="hero-cover" className="hero-image" />
        
         </div>
 

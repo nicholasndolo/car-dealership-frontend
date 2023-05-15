@@ -29,7 +29,7 @@ const Login = ({onLogin}) => {
       if (res.ok) {
         res.json().then((user) => onLogin(user));
         navigate("/dashboard");
-      } else {
+      }else {
         res.json().then((err) => setErrors(err.errors));
 
       }
@@ -44,7 +44,7 @@ const Login = ({onLogin}) => {
     <div className="login">
       
         <div className="login-l">
-            <img src={admin} alt="" />
+            <img src={admin} alt="admin_avatar" />
         </div>
         <div className="login-r">
           <h3>Please login to continue</h3>
